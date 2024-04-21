@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <style>
+        body{
+            /*body by default has a margin*/
+            margin: 0;
+        }
+        header{
+            background-color: white;
+            
+        }
+        .container{
+            max-width:1600px;
+            /*bring block level header to center*/
+            margin:auto;       
+        }
+
+
+        nav{
+            /*nav should fill the container*/
+            width:100%;
+            display: flex;
+            justify-content: space-between;
+            padding:15px 10px;
+            /*bring nav contents inside container*/
+            box-sizing: border-box;
+            align-items: center;
+        }
+        nav span{
+            margin:10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="head">
+        
+        <div class="container">
+            
+            <nav >
+                <img title="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png" alt="logo"/>
+                <div>
+                    <span>Courses</span>
+                    <span>IIT</span>
+                    <span>Events</span>
+                    <span>Fees</span>
+                    <span>Learn</span>
+                    <span>Success Stories</span>
+                    <span>Hire From Us</span>                
+                </div>
+                <div>
+                    <button style="background-color: #f2feff;padding:15px;border:none;color:blueviolet">REFER & EARN</button>
+                    <button style="border:1px solid red;border-color:red;color:red;padding:4px;background-color: white;border-radius:4px;">SIGN UP</button>
+                </div>
+    
+            </nav>
+        </div>
+
+
+    </header>
+</body>
+</html>
