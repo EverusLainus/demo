@@ -27,10 +27,15 @@ Frontend: https://www.netlify.com
 
 Indus-Iteration-006/
 |-- bootstrap/
+
 |   |-- assets/
+
 |
+
 |-- figma/
+
 |   |-- assets/
+
 / 
 
 
