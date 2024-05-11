@@ -1,6 +1,9 @@
-# "Web Cloning and Figma Rendering
+# Web Cloning and Figma Rendering
 
-This is a collaborative project done during a span of five days from 10 May 2024 to 11 May 2024. This project serves as a showcase of the skills we've acquired through past learning experiences.
+This is a collaborative project done during a span of five days from 10 May 2024 to 11 May 2024. This project serves as a showcase of the skills we've acquired through past learning experiences.This Project has two sections
+        1. Cloning Marvel Website 
+        2. Redering a Figma Design
+
 
 ## Assignment 1: Cloning Marvel Website 
 
