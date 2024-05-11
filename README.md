@@ -22,4 +22,6 @@ In this Section we have rendered the figma design number 6 from https://www.figm
 
 1. Clone the Repository
 2. Navigate through each Project Folder
-3. Install Bootstrap using `npm install bootstrap@5.3.3' . Refer https://getbootstrap.com/docs/5.3/getting-started/download/ for further details.
+3. Install Bootstrap using 
+    npm install bootstrap@5.3.3 
+Refer https://getbootstrap.com/docs/5.3/getting-started/download/ for further details.
