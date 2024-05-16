@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    /*
+    Problem 1:
+    Function with Variables: Write a function subtract that takes two numbers as parameters and 
+    returns the result of subtracting the second number from the first number. 
+    Ensure that the function only performs subtraction if both parameters are numbers.
+Example Invocation: subtract(10, 5) Expected Output: 5
+    */
+    function subtract(a, b) {
+        if (typeof a === "number" && typeof b === "number") {
+            return a - b
+        } else {
+            return -1;
+        }
+    }
+    subtract(1, 2)//output: -1
+    subtract("hi", undefined)//output: -1;
+
+    /*
+    Handling Null and Undefined: Create a function greet that takes a first name, last name, and age as parameters. 
+    The function should return a greeting string mentioning the age of the person.
+     Utilize template literals to compose the string.
+     Include a conditional statement to handle cases where the age might not be available (i.e., undefined).
+Example Invocation: greet("John", "Doe", 30) Expected Output: "John Doe's age is 30."
+    */
+
+    function greet(first_name, last_name, age) {
+        if (typeof a === "number" && typeof b === "number") {
+            return "${first_name last_name}'s age is ${age}"
+        }
+
+    }
+    greet("john", "Doe", 30)//output john Doe's age is 30
+    greet("Ann", "Joe", "hi")//prints nothing
+
+    /*
+    Utilizing Template Literals: Write a function interpolate that takes two numbers as parameters and
+     returns a string with the sum of the numbers formatted as an equation. Use logical operators to 
+     ensure that both inputs are numbers.
+Example Invocation: interpolate(5, 3) Expected Output: "5 + 3 = 8"
+    */
+
+    function interpolate(a, b) {
+        if (typeof a === "number" && typeof b === "number") {
+            return "${a}+${b} =${a+b}"
+        }
+    }
+    interpolate(2,3)//output: 2+3 = 5
+    interpolate(2, "three")//prints nothing
+
+</script>
+
+</html>
